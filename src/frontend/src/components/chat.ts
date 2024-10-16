@@ -50,9 +50,9 @@ export const defaultOptions: ChatComponentOptions = {
   apiUrl: '',
   enablePromptSuggestions: true,
   promptSuggestions: [
-    'How to search and book rentals?',
-    'What is the refund policy?',
-    'How to contact a representative?',
+    'Where can I buy in Georgia?',
+    'What is MDF made out of?',
+    'What sustainability practices does Arauco have?',
   ],
   messages: [],
   strings: {
