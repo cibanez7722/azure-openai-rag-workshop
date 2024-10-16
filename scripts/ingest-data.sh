@@ -31,3 +31,5 @@ curl -F "file=@./data/DURAFLAKE_PB_spec_PLUS.pdf" "${INGESTION_API_URI:-http://l
 curl -F "file=@./data/DURAFLAKE_PB_spec_STANDARD.pdf" "${INGESTION_API_URI:-http://localhost:3001}/documents"
 curl -F "file=@./data/DURAFLAKE_PB_spec_VESTA_ULEF.pdf" "${INGESTION_API_URI:-http://localhost:3001}/documents"
 curl -F "file=@./data/Distributors.pdf" "${INGESTION_API_URI:-http://localhost:3001}/documents"
+curl -F "file=@./data/Distributor.pdf" "${INGESTION_API_URI:-http://localhost:3001}/documents"
+curl -F "file=@./data/Distrib_INFO.pdf" "${INGESTION_API_URI:-http://localhost:3001}/documents"
