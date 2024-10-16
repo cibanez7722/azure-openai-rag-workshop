@@ -10,3 +10,7 @@ echo 'Uploading PDF files to the ingestion API'
 curl -F "file=@./data/privacy-policy.pdf" "${INGESTION_API_URI:-http://localhost:3001}/documents"
 curl -F "file=@./data/support.pdf" "${INGESTION_API_URI:-http://localhost:3001}/documents"
 curl -F "file=@./data/terms-of-service.pdf" "${INGESTION_API_URI:-http://localhost:3001}/documents"
+
+curl -F "file=@./data/PB.pdf" "${INGESTION_API_URI:-http://localhost:3001}/documents"
+curl -F "file=@./data/MOULDING.pdf" "${INGESTION_API_URI:-http://localhost:3001}/documents"
+curl -F "file=@./data/PRISM.pdf" "${INGESTION_API_URI:-http://localhost:3001}/documents"
