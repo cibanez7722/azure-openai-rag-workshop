@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="description" content="ChatGPT with Enterprise Data" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <title>ChatGPT with Enterprise Data</title>
+    <title>CHIP - Customer Helper & Information Provider</title>
     <style>
       :root {
         --azc-primary: #06b;
@@ -19,8 +19,9 @@
         background: var(--azc-bg);
       }
       nav {
-        background: #333;
-        color: #fff;
+        background: #BFB800;
+        color: #696158;
+        font-weight: bold;
         padding: 16px;
         font-family:
           'Segoe UI',
@@ -31,6 +32,18 @@
           sans-serif;
         font-size: 1.25rem;
       }
+      .corner-image {
+        position: absolute;
+        top:20px;
+        right:0;
+        
+      }
+      .corner-image img {
+        width: 100%;
+        height:auto;
+        
+      }
+      
       azc-chat {
         display: block;
         max-width: 1024px;
@@ -39,7 +52,10 @@
     </style>
   </head>
   <body>
-    <nav>ChatGPT with Enterprise Data</nav>
+    <nav>CHIP - Customer Helper & Information Provider</nav>
+    <div class="corner-image">
+      <img align="right" src="image.png" alt="Arauco">
+    </div>
     <azc-chat></azc-chat>
     <script type="module" src="/src/index.ts"></script>
   </body>
