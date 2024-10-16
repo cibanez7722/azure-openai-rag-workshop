@@ -30,4 +30,4 @@ curl -F "file=@./data/TRUPAN_spec-Light.pdf" "${INGESTION_API_URI:-http://localh
 curl -F "file=@./data/DURAFLAKE_PB_spec_PLUS.pdf" "${INGESTION_API_URI:-http://localhost:3001}/documents"
 curl -F "file=@./data/DURAFLAKE_PB_spec_STANDARD.pdf" "${INGESTION_API_URI:-http://localhost:3001}/documents"
 curl -F "file=@./data/DURAFLAKE_PB_spec_VESTA_ULEF.pdf" "${INGESTION_API_URI:-http://localhost:3001}/documents"
-curl -F "file=@./data/2021_ARAUCO_Sustainability_Report.pdf" "${INGESTION_API_URI:-http://localhost:3001}/documents"
+curl -F "file=@./data/Distributors.pdf" "${INGESTION_API_URI:-http://localhost:3001}/documents"
