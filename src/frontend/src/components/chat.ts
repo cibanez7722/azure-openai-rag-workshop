@@ -66,7 +66,7 @@ export const defaultOptions: ChatComponentOptions = {
     chatInputPlaceholder: 'Pregúntame lo que sea...',
     chatInputButtonLabel: 'Enviar Pregunta',
     assistant: 'Support Assistant',
-    user: 'You',
+    user: 'Usted',
     errorMessage: 'We are currently experiencing an issue.',
     newChatButton: 'Nuevo chat',
     retryButton: 'Retry',
@@ -476,6 +476,8 @@ export class ChatComponent extends LitElement {
         Roboto,
         'Helvetica Neue',
         sans-serif;
+        border-radius: 5%;
+
     }
     .citation-link {
       padding: 0;
