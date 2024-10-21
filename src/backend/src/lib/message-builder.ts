@@ -1,6 +1,6 @@
 import { encoding_for_model, type TiktokenModel } from '@dqbd/tiktoken';
 import { type BaseMessage, AIMessage, HumanMessage, SystemMessage } from '@langchain/core/messages';
-import { AIChatMessage, AIChatRole } from '@microsoft/ai-chat-protocol';
+import { type AIChatMessage, type AIChatRole } from '@microsoft/ai-chat-protocol';
 
 export class MessageBuilder {
   messages: AIChatMessage[];
