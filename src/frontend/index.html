@@ -22,6 +22,7 @@
         background: #bfb800;
         color: #696158;
         padding: 16px;
+        font-weight: bold;
         font-family:
           'Segoe UI',
           -apple-system,
@@ -29,7 +30,13 @@
           Roboto,
           'Helvetica Neue',
           sans-serif;
-        font-size: 1.25rem;
+        font-size: 1.6rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .logo {
+        height: 40px; /* Ajusta el tamaño del logo según sea necesario */
       }
       azc-chat {
         display: block;
@@ -39,7 +46,9 @@
     </style>
   </head>
   <body>
-    <nav>Arauco GPT chat PoC</nav>
+    <nav>Arauco GPT chat PoC
+      <img src="/logo-arauco-Cafe.png" alt="Logo" class="logo" />
+    </nav>
     <azc-chat></azc-chat>
     <script type="module" src="/src/index.ts"></script>
   </body>
