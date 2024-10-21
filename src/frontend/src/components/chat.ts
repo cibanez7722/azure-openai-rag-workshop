@@ -499,14 +499,17 @@ export class ChatComponent extends LitElement {
     }
     .citations-title {
       font-weight: bold;
+      
     }
     .suggestions-container {
       text-align: center;
       padding: var(--space-xl);
+      color: #FFFFFF;
     }
     .suggestions {
       display: flex;
       gap: var(--space-md);
+      color: #696158;
     }
     @container (width < 480px) {
       .suggestions {
