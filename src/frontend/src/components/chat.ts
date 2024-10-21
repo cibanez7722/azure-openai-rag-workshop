@@ -57,7 +57,7 @@ export const defaultOptions: ChatComponentOptions = {
   messages: [],
   strings: {
     promptSuggestionsTitle: 'Pregúntame lo que sea o utiliza algunos ejemplos!',
-    citationsTitle: 'Citations:',
+    citationsTitle: 'Referencia:',
     followUpQuestionsTitle: 'Follow-up questions:',
     showThoughtProcessTitle: 'Show thought process',
     closeTitle: 'Close',
@@ -108,6 +108,7 @@ export class ChatComponent extends LitElement {
   onCitationClicked(citation: string) {
     if (this.options.enableContentLinks) {
       const path = getCitationUrl(citation);
+      console.log("Citation URL:", path); // Verifica la URL que se genera
       window.open(path, '_blank');
     } else {
       // TODO: open debug details
@@ -505,11 +506,13 @@ export class ChatComponent extends LitElement {
       text-align: center;
       padding: var(--space-xl);
       color: #FFFFFF;
+      margin-top: 5%;
     }
     .suggestions {
       display: flex;
       gap: var(--space-md);
       color: #696158;
+      margin-top: 10%;
     }
     @container (width < 480px) {
       .suggestions {
